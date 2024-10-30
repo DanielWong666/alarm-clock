@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+body {
+    background-color: #18171f;
+}
+
+/*--------------------------------------------*/
+/*Utility classes                             */
+/*--------------------------------------------*/
+
+.container {
+width: min(100% - 30px, 1200px);
+margin-inline: auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    place-items: center;
+}
+
+/*--------------------------------------------*/
+/*Main                                        */
+/*--------------------------------------------*/
+
+.current-time {
+    font-size: 100px;
+    color: #fff;
+}
+
+.fa-solid {
+    display: none;
+}
+
+button {
+    margin: 30px 10px;
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #009c5d;
+    font-size: 16px;
+    color:#fff;
+}
+
+.set {
+    margin: 30px 10px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.alarm {
+    padding-left: 20px;
+}
+
+.hour-input, .min-input {
+    margin: 30px 10px;
+    width: 80px;
+    height: 40px;
+    background-color: #232229;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.error-message {
+    color: #fc0019;
+    display: none;
+    font-size: 20px;
+}

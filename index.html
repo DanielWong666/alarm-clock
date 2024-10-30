@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr ">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Duan Wang">
+    <meta name="description" content="My web project">
+    <meta name="keyword" content="html, css, web, seo, web development">
+    <title>Alarm Clock</title>
+    <link rel="icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css" media="all">
+    <link rel="stylesheet" href="./assets/css/style.css" media="all">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" >
+    <script src="./assets/js/index.js" defer></script>
+  </head>
+  <body class="grid">
+    <main class="container grid">
+       <h1 class="current-time"></h1>
+       <section class="flex set">
+          <i class="fa-solid fa-bell"></i>
+          <p class="alarm"></p>
+       </section>
+       <section class="flex">
+          <input type="text" class="hour-input" maxlength="2" placeholder="HH">
+          <input type="text" class="min-input" maxlength="2" placeholder="MM">
+          <button>Set alarm</button>
+       </section>
+       <p class="error-message">
+        Please enter a valid number!
+       </p>
+    </main>
+  </body>
+</html>
