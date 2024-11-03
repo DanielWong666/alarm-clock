@@ -27,12 +27,6 @@ margin-inline: auto;
 /*Main                                        */
 /*--------------------------------------------*/
 
-.time-box {
-    width:500px;
-    height:auto;
-    text-align: center;
-}
-
 .current-time {
     font-family: monospace;
     font-size: 100px;
