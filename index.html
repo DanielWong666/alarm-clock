@@ -18,19 +18,27 @@
   </head>
   <body class="grid">
     <main class="container grid">
-       <h1 class="current-time"></h1>
+       <section class="time-box">
+          <h1 class="current-time"></h1>
+       </section>
        <section class="flex set">
-          <i class="fa-solid fa-bell"></i>
-          <p class="alarm"></p>
+          <div>
+            <i class="fa-solid fa-bell"></i>
+          </div>
+          <div class="alarm-box">
+            <p class="alarm"></p>
+          </div>
        </section>
        <section class="flex">
           <input type="text" class="hour-input" maxlength="2" placeholder="HH">
           <input type="text" class="min-input" maxlength="2" placeholder="MM">
           <button>Set alarm</button>
        </section>
-       <p class="error-message">
-        Please enter a valid number!
-       </p>
+       <section class="error-box">
+          <p class="error-message">
+            Please enter a valid time for the alarm!
+          </p>
+       </section>
     </main>
   </body>
 </html>

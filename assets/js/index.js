@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 const currentTime = document.querySelector('.current-time');
 const alarm = document.querySelector('.alarm');
 const hourInput = document.querySelector('.hour-input');
@@ -11,8 +9,6 @@ const alarmIcon = document.querySelector('.fa-solid');
 const errorMessage = document.querySelector('.error-message');
 const alarmSound = new Audio('assets/audio/alarm.mp3');
 alarmSound.type = 'audio/mp3';
-
-
 
 // Current Time
 function updateTime() {
